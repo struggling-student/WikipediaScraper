@@ -1,11 +1,18 @@
 # WikipediaScraper
 
+Wikipedia Web Scraper was an Exam Project for the "Programming Methodologies" course of the first 
+year at Computer Science - Sapienza University of Rome.
 
+# Project requests
 
+The project was 
 
+> Tutorial is in Italian, an english version will be added soon.
 
-# Tutorial
+# Tutorial - ReadME file.
+
 ## Guida installazione libreria Selenium
+
 1. Scaricare la versione di Selenium più recente dal sito: https://www.selenium.dev/downloads/
 oppure cliccare direttamente il seguente link.
 2. Creare il Java Project nel quale si vuole utilizzare la libreria.
@@ -17,6 +24,7 @@ oppure cliccare direttamente il seguente link.
 8. Ripetere il punto e selezionare i rimanenti Executable Jar File.
 9. Cliccare su Apply and Close.
 ## Guida per usare lo Scraper
+
 1. Modificare nella classe ImperatorScraper il path nella seguente riga:
   ```
   System.setProperty(”webdriver.chrome.driver”,”CHANGE ME");
