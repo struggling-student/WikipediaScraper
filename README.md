@@ -4,8 +4,8 @@
 
 
 
-
-# Guida installazione libreria Selenium
+# Tutorial
+## Guida installazione libreria Selenium
 1. Scaricare la versione di Selenium più recente dal sito: https://www.selenium.dev/downloads/
 oppure cliccare direttamente il seguente link.
 2. Creare il Java Project nel quale si vuole utilizzare la libreria.
@@ -16,3 +16,25 @@ oppure cliccare direttamente il seguente link.
 7. Aprire la cartella e selezionare tutti i file interni.
 8. Ripetere il punto e selezionare i rimanenti Executable Jar File.
 9. Cliccare su Apply and Close.
+## Guida per usare lo Scraper
+1. Modificare nella classe ImperatorScraper il path nella seguente riga:
+  ```
+  System.setProperty(”webdriver.chrome.driver”,”CHANGE ME");
+  ```
+  con il proprio percorso a ”chromedriver.exe”.
+2. Modificare nella classe WikipediaClass il path nella seguente riga:
+  ```
+  System.setProperty(”webdriver.chrome.driver”,”CHANGE ME”);
+  ```
+  con il proprio percorso a ”chromedriver.exe”.
+3. Modificare nella classe WikipediaScraperTester il path nella seguente riga:
+  ```
+  System.setProperty(”webdriver.chrome.driver”,”CHANGE ME”);
+  ```
+  con il proprio percorso a ”chromedriver.exe”.
+4. Aprire la classe ImperatorScraper ed eseguirla.
+5. Attendere che vengano aperte le pagine Wikipedia di ogni Imperatore in modo da formare i rispettivi alberi.
+6. Alla fine del caricamento cliccare sull’icona di Java presente sulla barra delle applicazioni.
+7. A questo punto verrà visualizzata un interfaccia contenente tutte le Dinastie.
+8. Cliccare sul nome della Dinastia che si vuole visualizzare.
+9. Una volta entrati all’interno di un albero, per torna alla pagina iniziale bisognerà cliccare il pulsante in basso.
