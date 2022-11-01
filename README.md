@@ -25,7 +25,9 @@ oppure cliccare direttamente il seguente link.
 9. Cliccare su Apply and Close.
 ## Guida per usare lo Scraper
 
-1. Modificare nella classe ImperatorScraper il path nella seguente riga:```System.setProperty(”webdriver.chrome.driver”,”CHANGE ME");```con il proprio percorso a ”chromedriver.exe”.
+1. Modificare nella classe ImperatorScraper il path nella seguente riga:
+  - ```System.setProperty(”webdriver.chrome.driver”,”CHANGE ME");```
+  con il proprio percorso a ”chromedriver.exe”.
 2. Modificare nella classe WikipediaClass il path nella seguente riga:```System.setProperty(”webdriver.chrome.driver”,”CHANGE ME”);```con il proprio percorso a ”chromedriver.exe”.
 3. Modificare nella classe WikipediaScraperTester il path nella seguente riga:```System.setProperty(”webdriver.chrome.driver”,”CHANGE ME”);```con il proprio percorso a ”chromedriver.exe”.
 4. Aprire la classe ImperatorScraper ed eseguirla.
