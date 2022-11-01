@@ -27,6 +27,25 @@ pedia di Augusto.
 - Creare un albero genealogico per ciascuna dinastia mediante gli strumenti
 grafici visti a lezione.
 
+## Struttura
+### Web Scraper
+
+### Interfaccia
+- Line : Lo scopo della classe Line è quella di costruire la linea che poi viene tracciata nell’
+ImperatorPanel.
+- Point : Lo scopo della classe Point è quello di determinare le coordinate del punto(X,Y).
+- PersonMouseAdapter : Lo scopo della classe PersonMouseAdapter è quello di aprire la pagina Web di una persona quando si clicca su di essa.
+- ImperatorScraper : La classe ImperatorScraper è la parte principale del progetto in cui viene avviata e gestita l’intera applicazione costruendo passo per passo la struttura dati contenente
+i dati raccolti e la struttura grafica per rappresentarli.
+- ImperatorCard : Lo scopo della classe ImperatorCard è quello di andare a disegnare a partire
+dall’imperatore tutta la dinastia, facendo attenzione alla tipologia di successore(figlio
+o meno) e formattando sull’interfaccia le posizioni delle mogli e dei figli.
+- ImperatorPanel : Lo scopo della classe ImperaratorPanel è quella di avere un pannello sul quale
+andare a disegnare le linee e le varie etichette.
+- PersonCard : Lo scopo della classe PersonCard è quello di definire un’opportuna rappresentazione
+grafica dei dati raccolti di ogni persona, in modo da renderizzare una visuale chiara
+utilizzando delle etichette contenenti il nome.
+
 ## Guida installazione libreria Selenium
 
 1. Scaricare la versione di Selenium più recente dal [sito](https://www.selenium.dev/downloads/) 
