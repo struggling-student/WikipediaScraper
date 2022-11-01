@@ -13,8 +13,8 @@ The project was
 
 ## Guida installazione libreria Selenium
 
-1. Scaricare la versione di Selenium più recente dal sito: https://www.selenium.dev/downloads/
-oppure cliccare direttamente il seguente link.
+1. Scaricare la versione di Selenium più recente dal [sito] (https://www.selenium.dev/downloads/).
+oppure cliccare direttamente il [seguente link](https://www.google.com/url?sa=D&q=https://selenium-release.storage.googleapis.com/3.141/selenium-java-3.141.59.zip&ust=1667419800000000&usg=AOvVaw0Kwa9J7MYcbiUUwBjM9eJ9&hl=it).
 2. Creare il Java Project nel quale si vuole utilizzare la libreria.
 3. Cliccare con il tasto destro del mouse sul progetto, andare nella sezione Built Path e cliccare su Configure Built Path.
 4. Cliccare su Java Built Path nella tendina di sinistra.
@@ -40,7 +40,7 @@ oppure cliccare direttamente il seguente link.
     - Cliccare i tre punti in alto a destra e selezionare l'opzione Guida.
     - Cliccare su Informazione su Google Chrome.
     - Si aprirà una pagina con la versione attuale del vostro Chrome.
-  - Accedere al seguente link.
+  - Accedere al [seguente link](https://chromedriver.chromium.org/downloads).
   - Scaricare la versione corrispondente alla vostra.
   - Scegliere il sistema operativo.
   - Estrarre il file zip scaricato.
