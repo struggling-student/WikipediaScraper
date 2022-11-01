@@ -3,13 +3,29 @@
 Wikipedia Web Scraper was an Exam Project for the "Programming Methodologies" course of the first 
 year at Computer Science - Sapienza University of Rome.
 
-# Project requests
+> Project Requests and Installation Tutorial is in Italian, an English version will be added soon.
 
-The project was 
+## Tracia
 
-> Tutorial is in Italian, an english version will be added soon.
+Il seguente progetto verterà sulla creazione di uno o più alberi genealogici relativi a ciascuna dinastia di Imperatori Romani, con lo scopo di visualizzare le diverse relazioni parentali che intercorrono.
 
-# Tutorial - ReadME file.
+Poiché tale processo dovrà essere il più automatico possibile andando ad attingere da diverse fonti dati presenti su Wikipedia, ai fini della realizzazione
+
+dovrà essere impiegata la tecnica del web scraping. Essa sarà necessaria per
+
+l’ottenimento delle informazioni relative alle diverse interazioni familiari di ciascun membro delle dinastie. L’infografica rappresenta l’albero genealogico della dinastia Giulio-Claudia con le relazioni parentali che intercorrono tra i diversi membri. Il nome dei sovrani è descritto tramite una formattazione in grassetto del loro nome, insieme alla data di inizio e fine regno.
+
+Da un punto di vista tecnico, il progetto richiederà l’utilizzo di Selenium, un framework open-source multipiattaforma impiegato per il testing applicazioni web e, come nel nostro caso, per effettuare operazioni di web scraping.
+
+A livello di specifiche, il progetto utilizzerà il web scraping e le interfacce grafiche
+al fine di:
+- Ottenere gli Imperatori di ciascuna Dinastia, partendo dalla pagina di
+Wikipedia fornita all’inizio della descrizione.
+- Visitare la pagina di ogni imperatore di ciascuna dinastia al fine di prelev-
+are le sue relazioni di parentela. Ad esempio, riferendosi alla pagina Wiki-
+pedia di Augusto.
+- Creare un albero genealogico per ciascuna dinastia mediante gli strumenti
+grafici visti a lezione.
 
 ## Guida installazione libreria Selenium
 
