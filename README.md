@@ -29,6 +29,19 @@ grafici visti a lezione.
 
 ## Struttura
 ### Web Scraper
+- Hierarchy : Package che racchiude le tre classi Dynasty, Imperator e Person le quali gestiscono
+le gerarchie degli imperatori.
+  -  Dynasty : La classe Dynasty è stata realizzata per unire tutti gli imperatori di una stessa
+dinastia in un unico oggetto.
+  -  Person : La classe Person si occupa di gestire tutte le persone quali madri, padri, figli che
+sono collegate agli imperatori, inoltre essa sarà estesa dalla classe Imperator.
+  -  Imperator : La classe estende la classe Person, aggiungendo agli attributi della classe Person
+altri due: Predecessor e Sucessor.
+- Table : La classe Table serve per estrarre e gestire tutti gli oggetti Wikitable che sono nella
+pagina HTML di Wikipedia contenenti le dinastie con i rispettivi imperatori.
+- WikipediaClass : La classe gestisce l’apertura di Chrome, il collegamento a Wikipedia ed estrae tutte.
+le tabelle delle dinastie dalla pagina principale degli Imperatori Romani.
+- WikipediaScraperTester : La classe testa il funzionamento dello Scraper, e attraverso una serie di print per ogni Imperatore verifica il funzionamento del codice.
 
 ### Interfaccia
 - Line : Lo scopo della classe Line è quella di costruire la linea che poi viene tracciata nell’
