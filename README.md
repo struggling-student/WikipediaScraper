@@ -5,7 +5,7 @@ year at Computer Science - Sapienza University of Rome.
 
 > Project Requests and Installation Tutorial is in Italian, an English version will be added soon.
 
-## Tracia
+## Traccia
 
 Il seguente progetto verterà sulla creazione di uno o più alberi genealogici relativi a ciascuna dinastia di Imperatori Romani, con lo scopo di visualizzare le diverse relazioni parentali che intercorrono.
 
