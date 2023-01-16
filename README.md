@@ -1,9 +1,17 @@
-# WikipediaScraper
-
-Wikipedia Web Scraper was an Exam Project for the "Programming Methodologies" course of the first 
+# WikipediaScraper [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+> Wikipedia Web Scraper was an Exam Project for the "Programming Methodologies" course of the first 
 year at Computer Science - Sapienza University of Rome.
 
-> Project Requests and Installation Tutorial is in Italian, an English version will be added soon.
+</div> 
+<div align="center">
+  <img src="https://img.shields.io/badge/Made%20with-Java-orange?style=for-the-badge&logo=Java">
+  <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white">
+  <img src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white">
+</div
+
+[![Immagine1.png](https://i.postimg.cc/T3wzqQJQ/Immagine1.png)](https://postimg.cc/D89p7rDb)
+
+> Project Requests and Installation Tutorial is in Italian.
 
 ## Traccia
 
